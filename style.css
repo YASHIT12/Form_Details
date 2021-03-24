@@ -1,0 +1,64 @@
+.contact
+{
+   width:50%;
+    margin-left: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 20px;
+    background-color: #b8b5ff;
+    border: 1px solid black;
+    padding: 5px;
+    z-index: 100;
+
+}
+.heading
+{
+    font-size: 30px;
+    text-align: center;
+}
+.form-group
+{
+display: flex;
+position: relative;
+width: 650px;
+font:15px bold;
+font-family: Calibri;
+}
+
+label
+{
+  font-size: 22px;
+  line-height: 1em;
+
+}
+.form-control
+{
+  font-size: 1.1em;
+  color: #080808;
+}
+.submit
+{
+    font-size: 1.1em;
+    margin-top: 15px;
+    width:30%;
+    color: black;
+    position: absolute;
+    left:35%;
+    background-color: orange;
+    font-family: Calibri;
+}
+#last
+{
+  display: none;
+}
+#detailTable
+{
+  background-color:white;
+}
